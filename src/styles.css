@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", sans-serif;
+  --font-serif: "Fraunces", serif;
+  --color-background: #f6ede2;
+  --color-foreground: #1c160f;
+  --color-card: #fffaf3;
+  --color-card-foreground: #1c160f;
+  --color-popover: #fffaf3;
+  --color-popover-foreground: #1c160f;
+  --color-primary: #a44a1f;
+  --color-primary-foreground: #fff7ef;
+  --color-secondary: #eedbcb;
+  --color-secondary-foreground: #513424;
+  --color-muted: #f2e6d9;
+  --color-muted-foreground: #6a5a4d;
+  --color-accent: #f3ddca;
+  --color-accent-foreground: #533626;
+  --color-border: rgba(66, 45, 28, 0.12);
+  --color-input: rgba(66, 45, 28, 0.12);
+  --color-ring: rgba(164, 74, 31, 0.28);
+  --radius: 1rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply min-w-80 bg-background font-sans text-foreground antialiased;
+    background-image:
+      radial-gradient(circle at top, rgba(255, 216, 157, 0.42), transparent 34%),
+      linear-gradient(180deg, #fffaf2 0%, #f4ece2 100%);
+    margin: 0;
+  }
+
+  a {
+    @apply text-inherit no-underline;
+  }
+
+  button,
+  input {
+    font: inherit;
+  }
+}
