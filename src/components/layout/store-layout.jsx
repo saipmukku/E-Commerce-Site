@@ -6,9 +6,6 @@ import { Button } from '../ui/button'
 const navItems = [
   { label: 'Home', to: '/' },
   { label: 'Shop', to: '/shop' },
-  { label: 'Search', to: '/search' },
-  { label: 'Account', to: '/account' },
-  { label: 'Cart', to: '/cart' },
 ]
 
 function navLinkClassName({ isActive }) {
