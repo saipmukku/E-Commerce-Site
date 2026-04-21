@@ -21,8 +21,8 @@ export function CartPage() {
       <div className="space-y-6">
         <SectionHeading
           align="stacked"
-          eyebrow="Your cart"
-          title="Review, adjust, and keep your selections cached between visits."
+          eyebrow="Your bag"
+          title="Review, adjust, and keep your selections ready for checkout."
         />
 
         {cartItems.length === 0 ? (
@@ -30,8 +30,8 @@ export function CartPage() {
             <CardContent className="space-y-3 p-6">
               <h3 className="font-serif text-2xl leading-none tracking-tight">Your cart is empty</h3>
               <p className="text-sm leading-6 text-muted-foreground">
-                Add a few Northstar Market pieces from the shop or search page and they&apos;ll stay
-                cached here.
+                Add a few Brew and Bundle favorites from the shop or search page and they&apos;ll stay
+                here until you&apos;re ready.
               </p>
             </CardContent>
           </Card>

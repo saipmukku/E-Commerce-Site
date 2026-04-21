@@ -40,8 +40,8 @@ export function SearchPage() {
   return (
     <div className="space-y-8">
       <SectionHeading
-        eyebrow="Search the market"
-        title="Find products by mood, room, or ritual."
+        eyebrow="Search the collection"
+        title="Find products by mood, room, or routine."
         copy="Search results update against the live catalog, and your recent searches are cached locally for the next visit."
       />
 
@@ -52,7 +52,7 @@ export function SearchPage() {
               <Search className="pointer-events-none absolute left-4 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
               <Input
                 className="h-12 rounded-full border-border/80 bg-background/80 pl-11"
-                placeholder="Search for candles, knitwear, kitchen sets..."
+                placeholder="Search for coffee sets, candles, soft layers..."
                 type="search"
                 value={draftQuery}
                 onChange={(event) => setDraftQuery(event.target.value)}
@@ -102,7 +102,7 @@ export function SearchPage() {
           <CardContent className="space-y-4 p-6">
             <h3 className="font-serif text-2xl leading-none tracking-tight">No products matched</h3>
             <p className="text-sm leading-6 text-muted-foreground">
-              Try a broader phrase like "home" or jump back to the full catalog.
+              Try a broader phrase like "coffee" or "home" or jump back to the full catalog.
             </p>
             <Button className="w-fit rounded-full" onClick={() => navigate('/shop')}>
               Browse all products

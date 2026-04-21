@@ -26,7 +26,7 @@ function toCurrency(value) {
 }
 
 function formatDisplayName(email = '') {
-  const derivedName = email.split('@')[0]?.replace(/[._-]/g, ' ') || 'Northstar guest'
+  const derivedName = email.split('@')[0]?.replace(/[._-]/g, ' ') || 'Brew and Bundle guest'
   return derivedName.replace(/\b\w/g, (character) => character.toUpperCase())
 }
 

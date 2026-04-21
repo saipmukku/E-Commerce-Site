@@ -32,23 +32,21 @@ export function HomePage() {
         <div className="relative grid gap-8 pb-4 pt-8 xl:grid-cols-[minmax(0,1.45fr)_minmax(420px,0.85fr)] xl:items-end xl:gap-12 2xl:grid-cols-[minmax(0,1.55fr)_minmax(460px,0.8fr)]">
           <div className="space-y-7">
             <Badge variant="secondary" className="rounded-full px-4 py-1.5">
-              Rooted in thoughtful living
+              Small comforts, well chosen
             </Badge>
             <div className="space-y-5">
               <h1 className="max-w-4xl font-serif text-5xl leading-none tracking-tight text-foreground sm:text-6xl lg:text-7xl 2xl:max-w-5xl 2xl:text-[5.5rem]">
-                A softer, slower kind of modern general store.
+                A warm shop for better mornings, easy gifting, and everyday essentials.
               </h1>
               <p className="max-w-3xl text-base leading-7 text-muted-foreground sm:text-lg 2xl:max-w-4xl">
-                Northstar Market is a curated lifestyle shop built around everyday usefulness.
-                We bring together small-batch home goods, easy wardrobe staples, and giftable
-                pieces chosen to make homes feel warmer, mornings feel calmer, and daily routines
-                feel more intentional.
+                Brew and Bundle brings together coffee rituals, home staples, and giftable finds in
+                one inviting storefront. The collection is built around items that feel useful right
+                away and still special enough to brighten the rhythm of daily life.
               </p>
               <p className="max-w-3xl text-base leading-7 text-muted-foreground sm:text-lg 2xl:max-w-4xl">
-                Our collections are guided by natural materials, understated color, and practical
-                beauty. Whether someone is refreshing a kitchen shelf, finding a favorite sweater,
-                or picking up a host gift, Northstar Market is meant to feel dependable, welcoming,
-                and quietly elevated.
+                From pour-over tools and table pieces to soft layers and thoughtful host gifts, each
+                product is chosen to feel easy to love, easy to use, and easy to fold into real
+                routines without overthinking it.
               </p>
             </div>
             <div className="flex flex-wrap gap-3">
@@ -75,15 +73,15 @@ export function HomePage() {
                 <div>
                   <Badge className="rounded-full px-3 py-1">Community favorite</Badge>
                   <h2 className="mt-4 font-serif text-3xl leading-none tracking-tight">
-                    Studio Setup Bundle
+                    Slow Morning Bundle
                   </h2>
                 </div>
                 <Heart className="mt-1 size-5 text-primary" />
               </div>
               <p className="text-sm leading-6 text-muted-foreground">
-                A bundle shaped around Northstar Market&apos;s approach: tactile materials, calm
-                colors, and practical pieces that transition easily from weekday routines to
-                slower weekend hosting.
+                A bundle shaped around the Brew and Bundle point of view: tactile materials,
+                comforting details, and practical pieces that make the first hour of the day feel a
+                little more grounded.
               </p>
               <div className="grid gap-3 sm:grid-cols-2">
                 <Card className="rounded-2xl border-border/70 bg-background/80 shadow-none">
@@ -119,9 +117,9 @@ export function HomePage() {
 
       <section className="pt-14">
         <SectionHeading
-          eyebrow="From the market floor"
-          title="Pieces selected for homes that value ease, warmth, and longevity."
-          copy="Northstar Market favors useful designs that settle naturally into daily life instead of chasing short-lived trends."
+          eyebrow="From Brew and Bundle"
+          title="Pieces selected for homes that value warmth, ease, and staying power."
+          copy="We favor useful designs that slip naturally into daily routines instead of chasing short-lived trends."
         />
 
         <div className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-3 xl:gap-7">
@@ -159,24 +157,24 @@ export function HomePage() {
       <section className="grid gap-8 pt-20 xl:grid-cols-[minmax(320px,0.85fr)_minmax(0,1.15fr)] xl:gap-10">
         <SectionHeading
           align="stacked"
-          eyebrow="About the business"
-          title="A neighborhood-inspired shop rooted in warmth, utility, and timeless design."
+          eyebrow="About Brew and Bundle"
+          title="A neighborhood-feeling shop built around comfort, utility, and small daily pleasures."
         />
         <Card className="rounded-[1.75rem] border-border/70 bg-card/85 shadow-none">
           <CardContent className="space-y-5 p-6 sm:p-8">
             <p className="text-base leading-7 text-muted-foreground">
-              Northstar Market was built for customers who want their everyday pieces to feel special
-              without becoming precious. We look for products that are tactile, durable, and easy to
-              live with, from kitchen counter staples to soft layering essentials and small host gifts.
+              Brew and Bundle was built for people who want everyday pieces to feel considered
+              without feeling fussy. We look for products that are tactile, durable, and simple to
+              live with, from coffee counter staples to soft layering essentials and easy host gifts.
             </p>
             <p className="text-base leading-7 text-muted-foreground">
               The business centers on curated collections rather than endless inventory. That means
               every item is chosen to work well together, making it easier for shoppers to discover
-              combinations that feel collected, calm, and genuinely useful.
+              combinations that feel collected, calm, and genuinely useful in real life.
             </p>
             <p className="text-base leading-7 text-muted-foreground">
-              We want Northstar Market to feel like a trusted local shop translated online: personal,
-              easy to navigate, and full of pieces that quietly improve the rhythm of home.
+              We want Brew and Bundle to feel like a trusted local shop translated online:
+              personal, easy to navigate, and full of pieces that quietly improve the flow of home.
             </p>
           </CardContent>
         </Card>

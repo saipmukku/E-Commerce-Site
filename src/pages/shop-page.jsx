@@ -21,8 +21,8 @@ export function ShopPage() {
     <section className="space-y-8">
       <SectionHeading
         eyebrow="Shop catalog"
-        title="Browse the Northstar Market collection."
-        copy="Browse by category, add products to your cart, and use the featured tags to spot current standouts."
+        title="Browse the Brew and Bundle collection."
+        copy="Explore by category, add favorites to your cart, and use the featured tags to spot current standouts."
       />
 
       <div className="flex flex-wrap gap-2">

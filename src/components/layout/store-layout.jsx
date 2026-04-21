@@ -29,16 +29,16 @@ export function StoreLayout() {
           <div className="relative flex flex-col gap-5 xl:flex-row xl:items-center xl:justify-between">
             <div className="flex items-center gap-3">
               <div className="grid h-11 w-11 place-items-center rounded-2xl bg-foreground text-sm font-bold text-background">
-                N
+                B
               </div>
               <div>
                 <NavLink className="font-semibold tracking-tight" to="/">
-                  Northstar Market
+                  Brew and Bundle
                 </NavLink>
                 <p className="text-sm text-muted-foreground">
                   {account.isAuthenticated
                     ? `Welcome back, ${account.name}`
-                    : 'Curated goods for slower living'}
+                    : 'Thoughtful goods for everyday rituals'}
                 </p>
               </div>
             </div>
